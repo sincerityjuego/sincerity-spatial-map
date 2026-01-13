@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+#header {
+    background: #101820;
+    color: white;
+    padding: 10px;
+}
+
+#map {
+    width: 75%;
+    height: 92vh;
+    float: left;
+}
+
+#panel {
+    width: 25%;
+    height: 92vh;
+    float: right;
+    padding: 10px;
+    background: #f2f2f2;
+    border-left: 2px solid #ccc;
+    overflow-y: auto;
+}
+
+.risk-high { color: red; }
+.risk-mid { color: orange; }
+.risk-low { color: green; }
